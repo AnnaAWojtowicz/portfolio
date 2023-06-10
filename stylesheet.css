@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+
+header {
+    background: #6E2908;
+    color: white;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+a:link,
+a:visited {
+    color: #6E2908;
+    text-decoration: none;
+}
+
+a.homepage:link,
+a.homepage:visited,
+a.title:link,
+a.title:visited {
+    color: black;
+}
+
+.container {
+    display: block;
+    margin: 4rem auto;
+    max-width: 90%;
+    border: 1px solid #6E2908;
+    border-radius: 10px;
+    padding: 1rem;
+    color: #6E2908;
+}
+
+
+.container {
+    width: 50rem;
+
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
+
+.info {
+    padding-top: 0.75rem;
+    text-align: justify;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+    padding-top: 2rem;
+    font-size: 1.3rem;
+
+}
+
+.github {
+    display: inline;
+    grid-column: 1 / 2;
+    justify-self: start;
+    margin-right: 1rem;
+}
+
+.website {
+    display: inline;
+    grid-column: 2 / 3;
+    justify-self: end;
+    margin-left: 1rem;
+    text-align: right;
+}
